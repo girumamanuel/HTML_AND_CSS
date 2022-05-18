@@ -1,0 +1,18 @@
+
+WEB PROGRAMMING With HTML , CSS and JavaScript
+
+CHAPTER 1
+
+Section 1.1
+
+Most people say “Web” instead of “World Wide Web,” and we’ll
+follow that convention. The Web is a collection of documents, called
+web pages, that are shared (for the most part) by computer users
+throughout the world. Different types of web pages do different things,
+but at a minimum, they all display content on computer screens.
+By“content,”we mean text, pictures, and user input mechanisms like
+text boxes and buttons.
+Speaking of the Internet, what is it?
+It’s a collection of several
+billion computers connected throughout the world. Each web page is
+stored on one of those computers.
