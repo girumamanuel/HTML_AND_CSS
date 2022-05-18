@@ -1,0 +1,18 @@
+WEB PROGRAMMING With HTML , CSS and JavaScript
+
+CHAPTER 1
+
+Section 1.2
+
+A website is a collection of related web pages that are normally
+stored on a single web server computer. A web server is a computer
+system that enables users to access web pages stored on the web
+server’s computer. The term “web server” can refer to the web page-
+accessing software that runs on the computer, or it can refer to the
+computer itself.
+
+To create a website, you’ll need these things:
+✔ a text editor
+✔ an upload/publishing tool,
+✔ a web hosting service,
+✔ a browser. We’ll describe them in the upcoming paragraphs.
