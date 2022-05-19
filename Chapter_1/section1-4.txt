@@ -1,0 +1,39 @@
+
+WEB PROGRAMMING With HTML , CSS and JavaScript
+
+CHAPTER 1
+
+Section 1. 4 HTML Tags
+
+✗ To implement an element for a web page, you’ll need to use tags. For
+example, if you want to implement a strong element (in order to put
+emphasis on the element’s content and display using boldface),
+surround the content with <strong> tags.
+
+✗ The use of tags is the key characteristic of a markup language. Why
+is it called “markup”? A markup language “marks up” a document
+by surrounding parts of its content with tags . Web pages are
+implemented with HTML, which stands for Hypertext Markup
+Language.
+
+✗ The “hyper” in “Hypertext” refers to HTML’s ability to implement
+hyperlinks.
+
+✗ A hyperlink (or link for short) is where you click on text or an image
+in order to jump to another web page. So HTML is a language that
+supports markup tags for formatting and the ability to jump to other
+web pages.
+
+✗ There are two types of elements—container elements and void
+elements. A container element (usually called simply a “container”)
+has a start tag and an end tag, and it contains content between its
+two tags.
+
+✗ For example, the h1 element is a container. On the other hand, a
+void element has just one tag, and its content is stored within the
+tag.
+
+✗ When a tag is discussed in general, without reference to a particular
+tag instance, it is called an element and it is written without the
+angled brackets. For example, when discussing the <h1> tag in
+general, refer to it as the h1 element.
