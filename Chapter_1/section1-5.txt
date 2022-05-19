@@ -1,0 +1,50 @@
+
+WEB PROGRAMMING With HTML , CSS and JavaScript
+
+CHAPTER 1
+
+Section 1. 5 HTML Tags
+
+✗ What’s source code, you ask? With many programming
+languages, two types of code are associated with a single
+program. There’s source code, which the programmer enters,
+and there’s executable code, which is low-level code that the
+computer hardware understands and executes (runs).
+Executable code is generated from the source code with the
+help of something called a compiler.
+
+✗ HTML code is source code because HTML code comes
+directly from the programming source—the programmer.
+
+✗ The html , head , and body elements form the basic
+structure of a web page, so we’ll refer to those elements as
+structural elements .
+
+✗ Be aware that that’s not a standard term. We made it up
+because it will make future explanations easier.
+
+✗ The first construct, <!DOCTYPE html> , tells the browser
+what type of document the web page is. Its html value (in
+<!DOCTYPE html> ) indicates that the document is anHTML document, and more specifically that the document
+uses the HTML5 standard for its syntax. Syntax refers to the
+words, grammar, and punctuation that make up a language.
+
+✗ After the doctype instruction comes the html element. It’s a
+container, and it contains/surrounds the rest of the web
+page. Its start tag includes lang="en" , which tells the
+browser that the web page is written in English. The head
+and body elements are also containers. The head element
+surrounds elements that provide information associated with
+the web page as a whole. The body element surrounds
+elements that display content in the web page.
+
+✗ Container elements must be properly nested, meaning that if
+you start a container inside another container, you must end
+the inner container before you end the outer container.
+
+✗ Because the body element starts inside the html element, the
+</body> end tag must come before the </html> end tag.
+note how the head and body elements are properly nested
+within the html element.
+
+
