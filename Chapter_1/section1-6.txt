@@ -1,0 +1,39 @@
+
+WEB PROGRAMMING With HTML , CSS and JavaScript
+
+CHAPTER 1
+
+Section 1. 6 HTML Tags
+
+✗ The head element contains two types of elements— meta and title.
+
+✗ the head element surrounds elements associated with the web page as
+a whole. The web page’s title pertains to the entire web page, so its
+title element goes within the head container. 
+
+The title element’scontained data specifies the label that appears in the browser
+window’s title bar.
+
+✗ The official HTML standard requires that every head container
+contains a title element.
+
+✗ Besides providing a label for your browser window’s title bar, what’s
+the purpose of the title element?
+
+✗ (1) It provides documentation for someone trying to maintain your
+web page, and
+
+✗ (2) it helps web search engines find your web page. In case you
+haven’t heard of a web search engine, it’s software that searches the
+Internet for user-specified information and returns a list of links to.
+
+
+✗ web pages that are likely to contain the requested information.
+Google is the preeminent search engine, as evidenced by the use of
+“google” as a verb.
+
+
+
+
+
+
