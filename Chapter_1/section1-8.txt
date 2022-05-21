@@ -1,0 +1,47 @@
+
+WEB PROGRAMMING With HTML , CSS and JavaScript
+
+CHAPTER 1 
+
+section 1-8 HTML Attributes 
+
+
+    • Container elements provide information between their start and end tags. Void elements (including the meta element) have no end tags, so they can’t provide information that way. Instead, they provide information using attributes. In the following example, charset is an attribute for a meta element:
+
+            <meta charset="utf-8">
+        
+    •  Most attributes have a value assigned to them. 
+
+       In this example, charset is assigned the value "utf-8" . Although most attributes have a value assigned to them, some do not.You should always surround attribute values with quotes, thus forming a string. A string is a group of zero or more characters surrounded by a pair of double quotes (“) or a pair of single quotes (‘), with double quotes preferred. 
+      
+    • Attributes are more common with void elements, but they can be used with container elements as well. Here’s an example of a container element that uses an attribute:
+      
+      <html lang="fr">
+      •
+      •
+      •
+      </html>
+      
+    • The lang attribute tells the browser that the element is using a particular language for its content. You can use the lang attribute for any element.
+
+                       meta charset Element
+  
+    • Syntax refers to the punctuation rules for code. Semantics refers to the meaning of the code. First up he semantics for the meta charset element.
+      
+    • The coded representations are in binary, which means a sequence of 0’s and 1’s, where each 0 and 1 is a bit (so 10110011 is a binary sequence of 8 bits). There are different encoding schemes, and in order for he receiving end of a transmission to understand the transmitted binary data, the receiver has to know the encoding scheme used by the sender. For web page transmissions, the meta ­ charset element specifies the encoding scheme. Normally, you should use a charset value of “utf-8” because all modern browsers understand that value.
+      
+    • The encoding scheme is sometimes referred to as a character set, and that’s what charset stands for. If you omit the meta charset element, your web page will usually work because most browsers assume UTF-8 encoding by default.
+            
+
+                   meta name Element
+    • Most of the meta elements use the name attribute to specify the type of information that’s
+           being provided. Common values for the meta name attribute are author , description , 
+           and keywords .
+
+    • The name and content attributes go together. The name attribute’s value specifies the type of
+             thing that the content attribute’s value specifies.
+
+    •  The meta description element and also the meta keywords element help web search engines
+find your web page. In addition, the meta description element helps the person reading the code learn the purpose of the web page.
+The meta description element isn’t as important as the meta author and meta char-set elements. Typically, HTML code is straightforward, so unless you’ve got tricky code, it’s OK to omit the meta description tag.
+
