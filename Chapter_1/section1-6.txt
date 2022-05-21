@@ -3,7 +3,7 @@ WEB PROGRAMMING With HTML , CSS and JavaScript
 
 CHAPTER 1
 
-Section 1. 6 HTML Tags
+Section 1. 6 Title Element 
 
 ✗ The head element contains two types of elements— meta and title.
 

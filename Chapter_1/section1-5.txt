@@ -3,7 +3,7 @@ WEB PROGRAMMING With HTML , CSS and JavaScript
 
 CHAPTER 1
 
-Section 1. 5 HTML Tags
+Section 1. 5 structural element
 
 ✗ What’s source code, you ask? With many programming
 languages, two types of code are associated with a single

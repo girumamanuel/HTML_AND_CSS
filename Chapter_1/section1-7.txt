@@ -1,0 +1,25 @@
+ 
+WEB PROGRAMMING With HTML , CSS and JavaScript
+
+CHAPTER 1
+
+section 1-7 meta Element 
+
+The meta elements provide information about the web page. If you look up “meta” in a standard dictionary, you’ll probably
+see a confusing definition.
+
+In everyday speech and in HTML, “meta” means “about itself.” 
+
+The meta element is a void element (not a container), so it does not have an end tag.
+
+<meta charset="utf-8" />
+
+The space and slash are a bit outdated, and we recommend omitting them.
+
+If you decide to include them, be consistent.
+
+The meta element is a void element (not a container), so it does not have an end tag.
+
+
+
+
