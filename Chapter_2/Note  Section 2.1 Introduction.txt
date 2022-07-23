@@ -1,0 +1,6 @@
+﻿
+Week 3 - Day 7: Tasks
+HTML Note  
+Section 2.1 Introduction
+In presenting the HTML elements, we make a point of using standard coding-style conventions, so your code will be acceptable to the web community as a whole.
+introduce you to additional HTML elements, so our web pages can be more expressive.

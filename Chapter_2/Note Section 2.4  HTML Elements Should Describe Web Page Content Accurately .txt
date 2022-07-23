@@ -1,0 +1,32 @@
+﻿
+Week 3 - Day 7: Tasks
+HTML Note 
+Section 2.4 HTML Elements Should Describe Web Page Content Accurately
+An overarching goal in web programming is to use appropriate HTML
+elements so your web page’s content is described accurately. For example, if you have text that forms what would normally be considered a paragraph, then surround the text with a p element, not
+some other element (like div ). Likewise, if you want to display words
+as a heading, use a heading element ( h1 - h6 ), not some other
+element (like strong ).
+A complementary overarching goal in web programming is to use
+HTML elements so your web page’s content is described fully. For
+example, if you have a title for your web page, it would be legal to
+enter the title as plain text, and not have it be inside a container. But
+don’t do that. Instead, put the title text inside a title element.
+So, why is it good practice to describe web page content accurately and
+fully? It’s a form of documentation, and documentation helps
+programmers understand and maintain the web page code more easily.
+Another benefit of describing web page content accurately and fully is
+that it enables you (the programmer) to manipulate the web page more
+effectively using CSS and JavaScript. For example, if you use p
+elements for all your paragraphs, you can use CSS to make all the
+paragraphs indented for their first lines. As another example, if you use
+heading elements ( h1 - h6 ) for all your headings, you can use
+JavaScript to make all the headings larger when a button is clicked.So, how is this goal enforced whereby elements are used to accurately
+and fully describe
+the web page’s content? Unfortunately, there’s nothing in the HTML5
+standard or in the W3C’s HTML validation service that enforces this
+goal. Consequently, much of the enforcement is left up to programmers’
+due diligence. For example, the HTML validation service will allow you
+to surround a paragraph of text with h1 tags or no tags at all. It’s up
+to you not to do that; instead, you should surround the text with p
+tags.

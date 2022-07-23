@@ -1,0 +1,38 @@
+
+Week 3 - Day 7: Tasks
+HTML Note Section 
+2.2 HTML Coding Conventions
+
+Browsers are very lenient in terms of requiring web developers to write high-quality code. So evenif a web page’s code uses improper syntax or improper style, web browsers won’t display an error message; instead, they’ll try to render the code in a reasonable manner. You might think that’s a good thing, but it’s not. If a web page uses improper syntax, different browsers might render the web page differently. In a worst-case scenario, the web developer tests the web page on a browser where no errors are evident, mistakenly concludes that all is well, and publishes the web page on the Web.
+
+And then a user loads the web page using a different browser, and that browser renders the page in an inappropriate manner. So as a web developer, how do you deal with this problem? You should test with multiple browsers and check the syntax using the W3C’s HTML validation service.
+
+As you may recall, coding-style convention rules pertain to the format of code. For example,
+there are rules about when to use uppercase versus lowercase, when to insert blank lines, and
+when to indent. Those rules help programmers understand the code more easily, but the browsers
+don’t care about such things. Consequently, for all those people who create web pages on their
+own, there’s nothing to stop them from using horrible style. If they want to put the code for theirentire web page on one line, browsers will treat that code the same as code with proper newlines and indentations.
+
+Companies like their programmers to follow standard coding conventions so the resulting
+programs are easier to maintain (program maintenance means debugging and enhancing a program after it has been released initially). This is particularly true for medium- and large-sized companies, where programs are debugged and enhanced by a larger number of people. With
+more people involved, there’s a greater need to understand other people’s code, and adhering to
+standard coding conventions helps with that.
+
+
+ For every container element, include both a start tag and an end tag. So even though it’s
+legal to omit a p element’s end tag, don’t do it.
+
+Use lowercase for all tag names (e.g., meta ) and attributes (e.g., name ).
+
+Use lowercase for attribute values unless there’s a reason for uppercase. For a meta
+author element, use title case for the author’s name because that’s how people’s names are
+normally spelled (e.g., name="Dan Connolly" ).
+
+For attribute-value assignments, surround the value with quotes, and omit spaces around
+the equals sign.
+
+
+ The capitalization rule for the doctype instruction is a gray area. Google’s Style Guide says
+“All code has to be lowercase” except when it’s appropriate for a value to use uppercase. Based on that, <!DOCTYPE html> should be <!doctype html> . However, the vast majority of examples on the W3C and WHATWG websites use uppercase for DOCTYPE , and the Google Style Guide
+uses uppercase for DOCTYPE , so that’s what we recommend. If you prefer all lowercase for the doctype instruction, ask your boss or teacher if that’s OK; if he or she says it is, go for it. ­Remember
+HTML is case insensitive, and browsers will handle either DOCTYPE or doctype just fine.

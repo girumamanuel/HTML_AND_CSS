@@ -1,0 +1,51 @@
+﻿
+Week 3 - Day 7: Tasks
+HTML Note 
+Section 2.3 Comments 
+
+As a programmer in the real world, you’ll spend lots of time looking at
+and editing other people’s code. And, other people will spend lots of
+time looking at and editing your code. Therefore, everyone’s code needs
+to be understandable. One key to understanding is good comments.
+Comments are words that humans read but the computer skips. More
+specifically, for web programming, the browser engine skips HTML
+comments. The browser engine is the software inside a web browser
+that reads a web page’s content (e.g., HTML code, image files) and
+formatting information (CSS), and then displays the formatted content on
+the screen.
+Usually, HTML code is fairly easy to understand, so there is no need
+for extensive comments.
+However, sometimes comments are appropriate. The general rule is to
+include a comment whenever information is needed to clarify something
+about nearby HTML code. Here’s an example:
+<!-- The following image should be updated once a month. -->
+<img src="januaryPicture.gif" width="400" height="250">
+In this code fragment, which displays a picture on a web page, the first
+line is a comment. As you can see, to form a comment, surround
+commented text with <!-- and --> markers. For comments that are short
+enough to fit on one line, like above, proper style suggests inserting a
+space immediately after <!-- and immediately before --> . This is an
+appropriate comment because without it, it would be harder for the web
+developer to remember to update the picture.For comments that are too long to fit on one line, proper style suggests
+putting the
+<!-- and -->
+markers on lines by themselves and indenting the enclosed comment
+text. Here’s an example:
+<!—-
+If the user clicks one of the color buttons, that will cause the
+following paragraph's font color to change to the button's color.
+-->
+For the most part, HTML just enables you (the programmer) to display
+stuff on your web page. JavaScript adds quite a bit of functionality by
+enabling you to read user input and update what the web page displays.
+In the world of software development, documentation refers to a
+description of a program. That description can be in the form of a
+document completely separate from the source code (like a user guide),
+or it can be embedded in the source code itself. Comments are one
+form of embedded code documentation. With HTML, meta elements
+provide another form of embedded-code documentation. you should
+normally always include a meta author element, so other people in your
+company know whom to go to when questions arise (or whom to blame
+when the boss needs a target). The meta description and meta keywords
+elements are also popular, but not quite as popular as the meta author
+element.
